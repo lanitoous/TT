@@ -3,30 +3,7 @@
  <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>변하는 이미지</title>
-   <style>
-     .image-container {
-       position: relative;
-       width: 300px;
-       height: 600px;
-     }
-     .image-container img {
-       position: absolute;
-       width: 100%;
-       height: 100%;
-       object-fit: cover;
-       transition: opacity 0.3s ease-in-out;
-     }
-     .image-container .hover-image {
-       opacity: 0;
-     }
-     .image-container:hover .hover-image {
-       opacity: 1;
-     }
-     .image-container:hover .default-image {
-       opacity: 0;
-     }
-   </style>
+
  </head>
  <body>
    <div class="image-container">
